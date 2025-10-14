@@ -12,7 +12,7 @@ const ProjectCard = ({ date, title, description, tags }: ProjectCardProps) => {
       <h4 className="text-xl font-bold text-white mt-2 group-hover:text-sky-400 transition-colors duration-300">
         {title}
       </h4>
-      <p className="mt-3 text-lg text-gray-400 leading-relaxed">
+      <p className="mt-3 text-[17px] text-gray-400 leading-relaxed">
         {description}
       </p>
       <div className="mt-4 flex flex-wrap gap-2">
