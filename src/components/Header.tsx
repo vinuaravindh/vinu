@@ -14,7 +14,14 @@ const Header = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            let currentSection = 'about';
+            let currentSection = 'projects';
+
+            const atBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 10; // 10px buffer
+
+            if (atBottom) {
+              setActiveSection('contact'); // Force 'contact'
+              return; // Exit the function
+            }
 
             navLinks.forEach(link => {
                 const section = document.querySelector(link.href);
@@ -38,7 +45,7 @@ const Header = () => {
           <div>
             <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight">Vinu Aravindh</h1>
             <h2 className="mt-4 text-xl md:text-2xl font-medium text-gray-200">Software Developer</h2>
-            <p className="mt-4 text-lg text-gray-400">I write code that works</p>
+            <p className="mt-4 text-lg text-gray-400">Web • Mobile • Full-Stack</p>
             
             <nav className="hidden lg:block mt-12">
                 <ul className="space-y-4">
@@ -46,7 +53,7 @@ const Header = () => {
                     <li key={link.href}>
                         <a 
                         href={link.href} 
-                        className="group w-fit flex items-center gap-4 text-[16px] font-bold tracking-widest transition-all duration-300"
+                        className="group w-fit flex items-center gap-4 text-[14px] font-bold tracking-widest transition-all duration-300"
                         >
                         <span 
                             className={`h-px transition-all duration-300 ${
