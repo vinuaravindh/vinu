@@ -5,7 +5,7 @@ const projectsData = [
   {
     date: "2024 SEPT - DEC",
     title: "Full stack Developer • Distributed Social Network",
-    description: "I developed a full-stack decentralized social network using Django, handling the back end API, front-end interface, and deployment. The project's core challenge was enabling distributed communication for features like posting and following across multiple nodes.",
+    description: "I developed a full-stack decentralized social network using Django, handling the back end API, front-end interface, and deployment. The project&apos;s core challenge was enabling distributed communication for features like posting and following across multiple nodes.",
     tags: ["Django", "RestfulAPIs", "PostgreSQL", "JavaScript", "JSON", "Heroku"],
     url: "https://github.com/vinuaravindh/social-distribution",
   },  
@@ -37,13 +37,13 @@ export default function Home() {
         <main className="py-12 lg:py-20">
           <section id="about" className="mb-16 md:mb-24 text-[#97a7bb]">
             <p className="text-[17px] leading-relaxed">
-              I'm a developer who likes bringing ideas to life through clean, functional interfaces. I really enjoy the process of shaping a product from the ground up, from brainstorming to the moment it starts working as intended. The balance of design and engineering keeps me engaged, especially when collaborating with others who share the same focus and curiosity.
+              I&apos;m a developer who likes bringing ideas to life through clean, functional interfaces. I really enjoy the process of shaping a product from the ground up, from brainstorming to the moment it starts working as intended. The balance of design and engineering keeps me engaged, especially when collaborating with others who share the same focus and curiosity.
             </p>
             <p className="mt-6 text-[17px] leading-relaxed">
-              I just graduated from the University of Alberta with my B.Sc. in Computing Science. For me, the best part was taking what we learned in class and using it in hands-on team projects. That's what really helped me build up my technical skills and learn how to work with others on tricky projects. It was the perfect mix of theory and practice to get me ready for my career.
+              I just graduated from the University of Alberta with my B.Sc. in Computing Science. For me, the best part was taking what we learned in class and using it in hands-on team projects. That&apos;s what really helped me build up my technical skills and learn how to work with others on tricky projects. It was the perfect mix of theory and practice to get me ready for my career.
             </p>
             <p className="mt-6 text-[17px] leading-relaxed">
-              When I'm not coding, I'm usually enjoying art in some form, especially music, movies, and novels. Lately, I've been listening to a lot of Indie Rock and reading books by Blake Crouch. To stay active, I'm either at the gym, hiking, running, or playing paddle tennis. My favourite hobby, though, is cooking, especially when I get to share the food with others!
+              When I&apos;m not coding, I&apos;m usually enjoying art in some form, especially music, movies, and novels. Lately, I&apos;ve been listening to a lot of Indie Rock and reading books by Blake Crouch. To stay active, I&apos;m either at the gym, hiking, running, or playing paddle tennis. My favourite hobby, though, is cooking, especially when I get to share the food with others!
             </p>
           </section>
 
@@ -68,9 +68,9 @@ export default function Home() {
               CONTACT
             </h3>
             <p className="mt-2 text-[17px] text-gray-400 leading-relaxed">
-              I'm currently open to new opportunities and collaborations.
+              I&apos;m currently open to new opportunities and collaborations.
               Whether you have a question or just want to say hi, my inbox is
-              always open, and I'll get back to you as soon as I can!
+              always open, and I&apos;ll get back to you as soon as I can!
             </p>
             <a 
               href="mailto:vinuaravindh@gmail.com"
