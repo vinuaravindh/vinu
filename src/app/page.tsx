@@ -40,7 +40,7 @@ export default function Home() {
               I&apos;m a developer who likes bringing ideas to life through clean, functional interfaces. I really enjoy the process of shaping a product from the ground up, from brainstorming to the moment it starts working as intended. The balance of design and engineering keeps me engaged, especially when collaborating with others who share the same focus and curiosity.
             </p>
             <p className="mt-6 text-[17px] leading-relaxed">
-              I just graduated from the University of Alberta with my B.Sc. in Computing Science. For me, the best part was taking what we learned in class and using it in hands-on team projects. That&apos;s what really helped me build up my technical skills and learn how to work with others on tricky projects. It was the perfect mix of theory and practice to get me ready for my career.
+              I just graduated from the <b>University of Alberta</b> with my B.Sc. in Computing Science. For me, the best part was taking what we learned in class and using it in hands-on team projects. That&apos;s what really helped me build up my technical skills and learn how to work with others on tricky projects. It was the perfect mix of theory and practice to get me ready for my career.
             </p>
             <p className="mt-6 text-[17px] leading-relaxed">
               When I&apos;m not coding, I&apos;m usually enjoying art in some form, especially music, movies, and novels. Lately, I&apos;ve been listening to a lot of Indie Rock and reading books by Blake Crouch. To stay active, I&apos;m either at the gym, hiking, running, or playing paddle tennis. My favourite hobby, though, is cooking, especially when I get to share the food with others!
