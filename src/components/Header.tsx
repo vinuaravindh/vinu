@@ -46,6 +46,34 @@ const Header = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight">Vinu Aravindh</h1>
             <h2 className="mt-4 text-xl md:text-2xl font-medium text-gray-200">Software Developer</h2>
             <p className="mt-4 text-lg text-gray-400">Web • Mobile • Full-Stack</p>
+
+            <a 
+              href="/vinu-resume.pdf" 
+              download="Vinu-Aravindh-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                inline-flex items-center gap-2 mt-8 
+                bg-[#daeaff] text-slate-900 font-bold 
+                px-4 py-2 rounded-full text-md 
+                hover:bg-white transition-colors duration-300
+              "
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 16 16" 
+                fill="currentColor" 
+                className="h-5 w-5"
+                aria-hidden="true"
+              >
+                <g>
+                  <path d="M9 7.826V1H7v6.826L4.392 5.59L3.09 7.108L8 11.318l4.91-4.21l-1.302-1.518z"/>
+                  <path d="M3 13v-3H1v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-3h-2v3z"/>
+                </g>
+              </svg>
+              Resume
+            </a>
+
             
             <nav className="hidden lg:block mt-12">
                 <ul className="space-y-4">
