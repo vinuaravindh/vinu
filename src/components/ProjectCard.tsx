@@ -11,14 +11,14 @@ type ProjectCardProps = {
 
 const ProjectCard = ({ date, title, description, tags, url }: ProjectCardProps) => {
   return (
-    <div className="block group mb-12">
     <a 
       href={url}
       target="_blank"
-      className="mb-12 group"
+      className="block group mb-12"
       rel="noopener noreferrer"
       aria-label={`View project ${title} (opens in a new tab)`}
     >
+      <div className="mb-12 group">
       <p className="text-sm text-gray-500 font-semibold tracking-wider">{date}</p>
       <h4 className="inline-flex items-baseline text-xl font-bold text-white mt-2 group-hover:text-sky-400 transition-colors duration-300">
           <span>{title}</span>
@@ -36,7 +36,6 @@ const ProjectCard = ({ date, title, description, tags, url }: ProjectCardProps) 
             <path d="M12 6H7a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-5m-6 0l7.5-7.5M15 3h6v6"/>
           </svg>
         </h4>
-        </a> 
       <p className="mt-3 text-[17px] text-[#97a7bb] leading-relaxed">
         {description}
       </p>
@@ -60,6 +59,7 @@ const ProjectCard = ({ date, title, description, tags, url }: ProjectCardProps) 
         ))}
       </div>
     </div>
+    </a> 
   );
 };
 

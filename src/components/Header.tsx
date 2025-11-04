@@ -16,11 +16,11 @@ const Header = () => {
         const handleScroll = () => {
             let currentSection = 'projects';
 
-            const atBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 10; // 10px buffer
+            const atBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 10;
 
             if (atBottom) {
-              setActiveSection('contact'); // Force 'contact'
-              return; // Exit the function
+              setActiveSection('contact');
+              return;
             }
 
             navLinks.forEach(link => {
