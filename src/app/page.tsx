@@ -3,19 +3,19 @@ import { url } from "inspector";
 
 const projectsData = [
   {
+    date: "2025 SEPT - PRESENT",
+    title: "WordPress Developer • AG Studios",
+    description: "Developing an art portfolio & web store on WordPress, optimized for performance and SEO. Designed on Figma and translated core features into functional code, engineering non-native UI features with JavaScript.",
+    tags: ["WordPress", "Elementor", "Figma", "JavaScript", "CSS", "SEO"],
+    url: "https://youtu.be/2WNYmHx20J8",
+  },
+  {
     date: "2024 SEPT - DEC",
     title: "Full stack Developer • Distributed Social Network",
     description: "I developed a full-stack decentralized social network using Django, handling the back end API, front-end interface, and deployment. The project&apos;s core challenge was enabling distributed communication for features like posting and following across multiple nodes.",
     tags: ["Django", "RestfulAPIs", "PostgreSQL", "JavaScript", "JSON", "Heroku"],
     url: "https://github.com/vinuaravindh/social-distribution",
   },  
-  {
-    date: "2023 JAN - APRIL",
-    title: "Android App Developer / Scrum Master • QR Game",
-    description: "I led a team of six in building a QR code hunting game, similar to Pokémon Go, using Java and Firebase. As the project manager and lead developer, I implemented core features like geolocation, tracking with Google Maps and a real-time leaderboard.",
-    tags: ["Android Studio", "Java", "JUnit", "Git", "Firebase", "Google Maps API"],
-    url: "https://github.com/CMPUT301W23T56/notConstraintLayout",
-  },
   {
     date: "2024 SEPT - 2025 JAN",
     title: "Web Developer / Digital Outreach • PawsomeStaycation",
@@ -29,6 +29,13 @@ const projectsData = [
     description:"Increased Instagram followers by 300% in 3 months through high-performing media campaigns. Designed branding materials and launched a professional website using Squarespace.",
     tags: ["Squarespace", "WordPress", "Canva", "DaVinci Resolve", "Riverside"],
     url: "https://www.positivesupportsforparents.com/",
+  },
+  {
+    date: "2023 JAN - APRIL",
+    title: "Android App Developer / Scrum Master • QR Game",
+    description: "I led a team of six in building a QR code hunting game, similar to Pokémon Go, using Java and Firebase. As the project manager and lead developer, I implemented core features like geolocation, tracking with Google Maps and a real-time leaderboard.",
+    tags: ["Android Studio", "Java", "JUnit", "Git", "Firebase", "Google Maps API"],
+    url: "https://github.com/CMPUT301W23T56/notConstraintLayout",
   },
 ];
 
